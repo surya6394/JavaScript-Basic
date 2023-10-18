@@ -30,6 +30,21 @@ console.log("first"+true) // String priority ( boolean converted into string)
 
 console.log(true+false) // true = 1 & flase = 0 ==> 1
 
+console.log("Advance Addition")
+
+console.log(6+7+"11") // opt = 1311 ( Add + concat )
+
+console.log("11"+3+4) // String priority
+
+console.log(8+"11"+4) // string priority
+
+console.log("Array Addition")
+
+let a  = [1,2,3,4,5]
+console.log(a[2]+a[3]+"11") // opt = 711
+
+console.log("11"+a[2]+a[3]) // opt = 1134
+
 
                                         // Substraction ( - )
                     
@@ -90,6 +105,8 @@ console.log("15"/true) // integer priority
 console.log("12"/false) // opt = infinity
 
 console.log(true/false) // integer priority
+
+
 
 
 
