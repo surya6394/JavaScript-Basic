@@ -50,13 +50,13 @@ console.log("11"+a[2]+a[3]) // opt = 1134
                     
 console.log("Substraction")
 
-console.log(12-7)
+console.log(12-7) // 5
 
-console.log(15-2.3)
+console.log(15-2.3) // 12.7
 
 console.log("11"-5) // output = 6 (Integer priority)
 
-console.log("11"-"4") // opt = 6 ( String converted into integer )
+console.log("11"-"4") // opt = 7 ( String converted into integer )
 
 console.log("11"-true) // String converted into integer and true = 1
 

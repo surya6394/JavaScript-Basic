@@ -127,7 +127,7 @@ function surya(){
         console.log("const a value second = ", b); // opt: 30 = bcz const b is function scoped variable
     }
 
-    // console.log("const c value = ", c); // Uncaught ReferenceError ReferenceError: b is not defined
+    // console.log("const c value = ", c); // Uncaught ReferenceError ReferenceError: c is not defined
 
 }
 

@@ -2,12 +2,12 @@
                     // Table using loop
 
 
-// for(let i = 2; i<=10; i++){
-//     for(let j = 1; j<=10; j++){
-//         console.log(i*j);
-//     }
-//     console.log("");
-// }
+for(let i = 2; i<=10; i++){
+    for(let j = 1; j<=10; j++){
+        console.log(i*j);
+    }
+    console.log("");
+}
 
 
                         // Table using loop
@@ -56,13 +56,13 @@
                         
 
 
-for(let i = 1; i <= 4; i++){
-    let row = " ";
-    for(let j = 1; j <= i; j++){
-        row += "* ";
-    }
-    console.log(row);
-}
+// for(let i = 1; i <= 4; i++){
+//     let row = " ";
+//     for(let j = 1; j <= i; j++){
+//         row += "* ";
+//     }
+//     console.log(row);
+// }
 
 
 // for(let i = 1; i <= 8; i++){
