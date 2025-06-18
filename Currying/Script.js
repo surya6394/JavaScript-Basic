@@ -34,3 +34,10 @@ function getDetail(obj){
 
 const res1 = getDetail(userData);
 console.log(res1('age'));
+
+
+const curryingFunction = (a) => (b) => (c) => a + b + c;
+
+console.log(curryingFunction(5));  // Returns: function (b) => ...
+console.log(curryingFunction(4)(5)); // Returns: function (c) => ...
+console.log(curryingFunction(6)(7)(8)); // Returns: 21
